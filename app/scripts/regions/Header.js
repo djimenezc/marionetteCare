@@ -8,8 +8,8 @@ function( Backbone ) {
 	return Backbone.Marionette.Region.extend({
 
 		initialize: function() {
-			console.log("initialize a Header Region");
+			console.log('initialize a Header Region');
 		}
-	});
+	},null);
 
 });

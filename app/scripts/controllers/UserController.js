@@ -7,7 +7,7 @@ function( Backbone ) {
 	return Backbone.Marionette.Controller.extend({
 
 		initialize: function( options ) {
-			console.log("initialize a Usercontroller Controller" + options);
+			console.log('initialize a Usercontroller Controller' + options);
 		}
 	});
 

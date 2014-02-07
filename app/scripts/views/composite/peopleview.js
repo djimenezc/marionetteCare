@@ -10,7 +10,7 @@ define([
         return Backbone.Marionette.CompositeView.extend({
 
             initialize: function () {
-                console.log("initialize a Peopleview CompositeView");
+                console.log('initialize a Peopleview CompositeView');
             },
 
             itemView: Personview,
@@ -22,7 +22,7 @@ define([
             ui: {},
 
             /* where are we appending the items views */
-            itemViewContainer: "",
+            itemViewContainer: '',
 
             /* Ui events hash */
             events: {},

@@ -1,28 +1,29 @@
 define([
-	'backbone',
-	'views/item/UserView'
+    'backbone',
+    'views/item/UserView'
 ],
-function( Backbone, Userview  ) {
-    'use strict';
+    function (Backbone, Userview) {
+        'use strict';
 
-	/* Return a ItemView class definition */
-	return Backbone.Marionette.CollectionView.extend({
+        /* Return a ItemView class definition */
+        return Backbone.Marionette.CollectionView.extend({
 
-		initialize: function() {
-			console.log("initialize a Usersview CollectionView");
-		},
-		
-    	itemView: Userview,
-    	
+            initialize: function () {
+                console.log('initialize a Usersview CollectionView');
+            },
 
-    	/* ui selector cache */
-    	ui: {},
+            itemView: Userview,
 
-		/* Ui events hash */
-		events: {},
 
-		/* on render callback */
-		onRender: function() {}
-	});
+            /* ui selector cache */
+            ui: {},
 
-});
+            /* Ui events hash */
+            events: {},
+
+            /* on render callback */
+            onRender: function () {
+            }
+        }, null);
+
+    });

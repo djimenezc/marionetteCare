@@ -1,6 +1,6 @@
 require.config({
 
-    baseUrl: "/scripts",
+    baseUrl: '/scripts',
 
     /* starting point for application */
     deps: ['backbone.marionette', 'bootstrap', 'main'],
@@ -35,7 +35,7 @@ require.config({
 
         /* Alias text.js for template loading and shortcut the templates dir to tmpl */
         text: '../Y/requirejs-text/text',
-        tmpl: "../templates",
+        tmpl: '../templates',
 
         /* handlebars from the require handlerbars plugin below */
         handlebars: '../Y/require-handlebars-plugin/Handlebars',

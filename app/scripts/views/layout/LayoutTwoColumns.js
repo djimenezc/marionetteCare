@@ -1,31 +1,32 @@
 define([
-	'backbone',
-	'hbs!tmpl/layout/LayoutTwoColumns_tmpl'
+    'backbone',
+    'hbs!tmpl/layout/LayoutTwoColumns_tmpl'
 ],
-function( Backbone, LayouttwocolumnsTmpl  ) {
-    'use strict';
+    function (Backbone, LayouttwocolumnsTmpl) {
+        'use strict';
 
-	/* Return a Layout class definition */
-	return Backbone.Marionette.Layout.extend({
+        /* Return a Layout class definition */
+        return Backbone.Marionette.Layout.extend({
 
-		initialize: function() {
-			console.log("initialize a Layouttwocolumns Layout");
-		},
-		
-    	template: LayouttwocolumnsTmpl,
-    	
+            initialize: function () {
+                console.log('initialize a Layouttwocolumns Layout');
+            },
 
-    	/* Layout sub regions */
-    	regions: {},
+            template: LayouttwocolumnsTmpl,
 
-    	/* ui selector cache */
-    	ui: {},
 
-		/* Ui events hash */
-		events: {},
+            /* Layout sub regions */
+            regions: {},
 
-		/* on render callback */
-		onRender: function() {}
-	});
+            /* ui selector cache */
+            ui: {},
 
-});
+            /* Ui events hash */
+            events: {},
+
+            /* on render callback */
+            onRender: function () {
+            }
+        });
+
+    });

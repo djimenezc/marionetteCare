@@ -9,7 +9,7 @@ define([
         return Backbone.Marionette.ItemView.extend({
 
             initialize: function () {
-                console.log("initialize a Personview ItemView");
+                console.log('initialize a Personview ItemView');
             },
 
             template: PersonviewTmpl,
