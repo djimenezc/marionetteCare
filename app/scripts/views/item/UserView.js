@@ -1,18 +1,18 @@
 define([
     'backbone',
-    'hbs!tmpl/item/personview_tmpl'
+    'hbs!tmpl/item/UserView_tmpl'
 ],
-    function (Backbone, PersonviewTmpl) {
+    function (Backbone, UserviewTmpl) {
         'use strict';
 
         /* Return a ItemView class definition */
         return Backbone.Marionette.ItemView.extend({
 
             initialize: function () {
-                console.log("initialize a Personview ItemView");
+                console.log("initialize a Userview ItemView");
             },
 
-            template: PersonviewTmpl,
+            template: UserviewTmpl,
 
 
             /* ui selector cache */
